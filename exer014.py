@@ -1,0 +1,5 @@
+print('Conversor de temperaturas')
+f = int(input('Informe a temperatura em F°: '))
+print('A temperatura {:}Fº ficará {:}C°.'.format(f, (f-32)/1.8))
+c = int(input('Informe a temperatura em C°. '))
+print('A temperatura {}Cº se torna {:}Fº.'.format(c, c*1.8+32))
