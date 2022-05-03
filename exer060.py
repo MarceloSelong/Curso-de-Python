@@ -4,6 +4,7 @@ print('---FATORIAL---')
 n = int(input('Informe um valor: '))
 c = n-1 #Contador
 resultado = n #Resultado final do fatorial
+print('O fatorial é:\033[31m')
 print('{}!={}'.format(n, n), end='x') #Principal
 while c > 0:
     resultado *= c
@@ -12,5 +13,4 @@ while c > 0:
     else:
         print('{}={}'.format(c, resultado))
     c -= 1
-print()
-print(resultado)
+
