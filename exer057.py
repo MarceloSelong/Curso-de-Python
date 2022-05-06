@@ -3,4 +3,4 @@
 sexo = str(input('Informe seu sexo: [M/F]')).upper()
 while sexo != 'M' and sexo != 'F':
     sexo = str(input('Opção incorreta! Informe seu sexo corretamente, [M/F]: '))
-print('Fim')
+print('Sexo {} registrado com sucesso.'.format(sexo))
