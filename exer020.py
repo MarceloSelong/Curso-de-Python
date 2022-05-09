@@ -7,3 +7,4 @@ n4 = input(str('Quarto aluno: '))
 lista = [n1, n2, n3, n4]
 shuffle(lista)
 print('A ordem de apresentação será: \033[35m{}\033[m'.format(lista)+'.')
+print('Fim')
