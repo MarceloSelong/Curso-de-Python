@@ -16,3 +16,4 @@ if prestacao >= (sal*30)/100:
     print('\033[31mEMPRÉSTIMO NEGADO!!!\033[m')
 else:
     print('\033[34mEMPRÉSTIMO APROVADO!!!\033[m')
+print('Fim')
