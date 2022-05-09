@@ -16,4 +16,4 @@ elif idade >= 19 and idade <= 20:
     print('Você se enquadra na categoria: \033[34mSênior\033[m')
 elif idade >= 21:
     print('Você se enquadra na categoria: \033[34mMaster\033[m')
-
+print('Fim')
