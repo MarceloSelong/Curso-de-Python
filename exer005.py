@@ -10,4 +10,4 @@ print('O antecessor de {}{}{} é {}{}{}. E o sucessor de {}{}{} é {}{}{}.'.form
                                                                                  cores['azul'], a, cores['limpa'],
                                                                                  cores['verde'], n, cores['limpa'],
                                                                                  cores['roxo'], s, cores['limpa']))
-print('Fim')
+print('Fim.')
