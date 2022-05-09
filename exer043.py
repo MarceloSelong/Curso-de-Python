@@ -24,3 +24,4 @@ elif 30.1 <= imc <= 40:
     print('\033[31mMuito cuidado! Você está com obesidade.\033[m')
 elif imc >= 40.1:
     print('\033[4;31mVOCÊ CORRE RISCO DE VIDA!!! Está com obesidade mórbida\033[m')
+print('Fim')
