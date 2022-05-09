@@ -1,3 +1,4 @@
+# Dobro, triplo e raizq
 cores = {'limpa': '\033[m',
          'verde': '\033[4;32m',
          'azul': '\033[4:34m',
