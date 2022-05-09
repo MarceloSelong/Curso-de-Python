@@ -14,3 +14,4 @@ elif anoatual-nasc < 18:
     print('\033[34mVocê deve se alistar em {} anos.\033[m'.format(18-(anoatual-nasc)))
 elif anoatual-nasc > 18:
     print('\033[31mVocê deveria ter se alistado á {} anos.\033[m'.format((anoatual-nasc)-18))
+print('Fim')
