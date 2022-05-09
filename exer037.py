@@ -15,3 +15,4 @@ elif choice == 2:
     print(oct(num)[2:])
 elif choice == 3:
     print(hex(num)[2:])
+print('Fim')
