@@ -18,3 +18,4 @@ elif soma > 5.0 and soma < 6.9:
     print('Média {}. Você ficou em \033[33mRECUPERAÇÃO!\033[m'.format(soma))
 elif soma > 7.0:
     print('Média {}. Você foi \033[34mAPROVADO!\033[m'.format(soma))
+print('Fim')
