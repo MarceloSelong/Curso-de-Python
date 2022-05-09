@@ -14,3 +14,4 @@ if junto == inverso:
     print('A frase {} é um palíndromo.'.format(frase))
 else:
     print('A frase {} não é um palíndromo.'.format(frase))
+print('Fim')
