@@ -8,3 +8,4 @@ if sal >= 1250:
     print('Seu novo salário será de R${:.0f}.'.format((sal/100*10)+sal))
 else:
     print('Seu novo salário será de R${:.0f}.'.format((sal/100*15)+sal))
+print('Fim')
