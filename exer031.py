@@ -6,3 +6,4 @@ if km <=200:
      print('O valor da passagem será de: R${:.0f}.'.format(km*0.5))
 else:
     print('O valor da passagem será de: R${:.0f}.'.format(km*0.45))
+print('Fim')
