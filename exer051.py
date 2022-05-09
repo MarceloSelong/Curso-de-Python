@@ -25,3 +25,4 @@ else:
             print(c, end='.')
         else:
             print(c, end=', ')
+print('Fim')
