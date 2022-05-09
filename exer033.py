@@ -13,3 +13,4 @@ else:
         print('O menor valor é: {}.'.format(n3))
     else:
         print('O menor valor é: {}'.format(n2))
+print('Fim')
