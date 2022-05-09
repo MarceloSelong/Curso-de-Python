@@ -12,4 +12,5 @@ if esc == n:
     print('Parabéns, você acertou. O número escolhido foi {}.'.format(n))
 else:
     print('Que pena, você errou. O número escolhido foi {}.'.format(n))
+print('Fim')
 
