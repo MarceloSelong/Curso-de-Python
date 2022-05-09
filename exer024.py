@@ -2,3 +2,4 @@
 cidade = input('Informe o nome de uma cidade.')
 list = cidade.upper().split()
 print('SANTO' in list[0])
+print('Fim')
