@@ -26,3 +26,4 @@ elif pc == 'TESOURA' and user == 2:
     print('O computador escolheu {}, você \033[31mperdeu\033[m.'.format(pc))
 elif pc == 'TESOURA' and user == 3:
     print('O computador escolheu {}, deu \033[33mempate\033[m.'.format(pc))
+print('Fim')
