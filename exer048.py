@@ -7,3 +7,4 @@ for c in range(0, 50+1):
         s += c
         print(c, '', end="")
 print('A soma entre estes número é: \033[31m{}\033[m.'.format(s))
+print('Fim')
