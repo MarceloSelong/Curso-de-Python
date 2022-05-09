@@ -17,3 +17,4 @@ if r1+r2 > r3 and r1+r3 > r2 and r3+r2 > r1:
         print('O triângulo é \033[31mequilátero\033[m.')
 else:
     print('Não pode formar um triângulo.')
+print('Fim')
