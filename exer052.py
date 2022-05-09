@@ -8,3 +8,4 @@ elif n % 2 == 0 or n % 3 == 0 or n % 5 == 0 or n % 7 == 0:
     print('O número {} não é primo.'.format(n))
 else:
     print('O número {} é primo.'.format(n))
+print('Fim')
