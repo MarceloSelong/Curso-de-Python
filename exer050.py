@@ -9,3 +9,4 @@ for c in range(1, 7):
     if num % 2 == 0:
         soma += num
 print('A soma entre os números pares informados é {}.'.format(soma))
+print('Fim')
