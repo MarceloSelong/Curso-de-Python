@@ -22,3 +22,4 @@ elif cond == 3:
     print('O valor a ser pago pelo produto é: \033[31mR${:.2f}\033[m.'.format(preco))
 elif cond == 4:
     print('O valor a ser pago pelo produto com 20% de acréscimo é: \033[31mR${:.2f}\033[m.'.format((preco*20)/100+preco))
+print('Fim')
