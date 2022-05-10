@@ -16,3 +16,4 @@ while repeteco == 1:
     while repeteco != 0 and repeteco != 1:
         repeteco = int(input('Informe corretamente: '))
 print('A soma entre os {} valores digitados foi {}.'.format(contador, soma))
+print('Fim')
