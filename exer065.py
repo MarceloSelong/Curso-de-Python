@@ -24,10 +24,12 @@ while repetir == 1:
     repetir = int(input("""Gostaria de digitar mais valores?
     \033[31m[1]\033[m para sim
     \033[31m[0]\033[m para não: """))
+    print()
     if repetir == 1:
         print()
     elif repetir == 0:
         print('\033[38mEncerrando...\033[m')
+        print()
         sleep(2)
     else:
         while repetir != 0 and repetir !=1:
