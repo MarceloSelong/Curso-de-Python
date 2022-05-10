@@ -19,3 +19,4 @@ while escolha == 0:
         escolha += 1
         tentativas += 1
         print('Foram necessários \033[34m{}\033[m palpites para acertar'.format(tentativas))
+print('Fim')
