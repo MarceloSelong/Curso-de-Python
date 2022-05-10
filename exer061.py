@@ -81,7 +81,7 @@ while repetir == 1:
             elif repetir == 0:
                 print('\033[31mEncerrando...\033[m')
                 sleep(2)
-    # ------------------------------Decrescente------------------------------#
+    # ------------------------------Decrescente-----------------------------#
     elif razão < 0:
         print('Esta é uma P.A. \033[31mdecrescente\033[m.')
         contador = primeirotermo
