@@ -26,3 +26,4 @@ for c in range(0, 4,):
 print('A média de idade do grupo é {} anos.'.format(media/4))
 print('O homem mais velho é {}, com {} anos.'.format(midade, anos))
 print('{} mulheres tem menos 21 anos.'.format(mul))
+print('Fim')
