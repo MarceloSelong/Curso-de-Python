@@ -14,3 +14,4 @@ for c in range(1, 6):
         elif peso > maior:
             maior = peso
 print('O maior peso foi \033[31m{}KG\033[m, e o menor peso foi \033[31m{}KG\033[m.'.format(maior, menor))
+print('Fim')
