@@ -1,11 +1,11 @@
-#Crie um programa que leia vários números inteiros pelo teclado.
-#O programa só vai parar, quando o usuário digitar o valor 0, que é a condição de parada.
-#No final, mostre quantos números foram digitados e qual foi a soma entre eles. (Desconsiderando o flag)
-soma = cont = 0
+# faça um programa que mostrea tabuada de vários números, um de cada vez, para cada valor digitado pelo usuário.
+# O programa será interrompido quando o número solicitado for negativo.
 while True:
-    num = int(input('Digite um valor, (0 para parar): '))
-    if num == 0:
+    num = int(input('Gostaria de ver a tabuada de qual número? '))
+    print('-'*30)
+    if num < 0:
         break
-    cont += 1
-    soma += num
-print(f'A soma entre os {cont} valores foi {soma}!')
+    for c in range(1, 11):
+        print(f'{num} x {c} = {num*c}')
+    print('-'*30)
+print('\033[31mEncerrando...\033[m')
