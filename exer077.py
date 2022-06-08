@@ -6,3 +6,4 @@ palavras = ('aprender', 'programar', 'linguagem', 'python', 'curso', 'gratis', '
 for c in range(0, len(palavras)):
     print(f'Na palavra {palavras[c].upper():.<12} temos: {palavras[c].count("a")*"a "}{palavras[c].count("e")*"e "}'
           f'{palavras[c].count("i")*"i "}{palavras[c].count("o")*"o "}{palavras[c].count("u")*"u "}')
+print()
