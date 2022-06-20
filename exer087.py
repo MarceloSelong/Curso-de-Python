@@ -20,14 +20,13 @@ for l in range(0, 3):
 for l in range(0, 3):
     for c in range(2, 3):
         soma3 += matriz[l][c]
-#--------------------------------------Maior valor da segunda coluna---------------------------------------------------#
-for l in range(1, 2):
-    for c in range(0, 3):
-        if c == 0:
-            maiseg = matriz[l][c]
-        else:
-            if matriz[l][c] > maiseg:
-                maiseg = matriz[l][c]
+#--------------------------------------Maior valor da segunda linha----------------------------------------------------#
+for c in range(0, 3):
+    if c == 0:
+        maiseg = matriz[1][c]
+    else:
+        if matriz[l][c] > maiseg:
+            maiseg = matriz[1][c]
 #----------------------------------------------Resultado final---------------------------------------------------------#
 print('-='*40)
 print(f'A soma entre os pares digitados na matriz é: {soma}')
