@@ -16,7 +16,6 @@ for c in range(0, jogadas):
             temporaria.append(temp)
     valores.append(temporaria[:])
     temporaria.clear()
-
 for i in range(0, len(valores)):
     valores[i].sort()
 print('Os jogos gerados foram:\n')
